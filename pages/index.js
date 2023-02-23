@@ -13,16 +13,16 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
       <CartLink />
       <div className="w-full">
         <Head>
-          <title>Jamstack ECommerce</title>
-          <meta name="description" content="Jamstack ECommerce Next provides a way to quickly get up and running with a fully configurable ECommerce site using Next.js." />
-          <meta property="og:title" content="Jamstack ECommerce" key="title" />
+          <title>Ótica Amazônia</title>
+          <meta name="description" content="Ótica Amazônia - A melhor amiga dos seus olhos!" />
+          <meta property="og:title" content="Ótica Amazônia" key="title" />
         </Head>
-        <div className="bg-blue-300
+        <div className="bg-green-300
         p-6 pb-10 smpb-6
         flex lg:flex-row flex-col">
           <div className="pt-4 pl-2 sm:pt-12 sm:pl-12 flex flex-col">
             <Tag
-              year="2021"
+              year="2023"
               category="SOFAS"
             />
             <Center
@@ -31,7 +31,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
               link={`/product/${slugify(inventory[2].name)}`}
             />
             <Footer
-              designer="Jason Bourne"
+              designer="RayBan"
             />
           </div>
           <div className="flex flex-1 justify-center items-center relative">
@@ -40,7 +40,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
               />
               <div className="absolute
               w-48 h-48 sm:w-72 sm:h-72 xl:w-88 xl:h-88
-              bg-white z-0 rounded-full" />
+              bg-green z-0 rounded-full" />
           </div>
         </div>
       </div>
@@ -63,8 +63,8 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
         />
       </div>
       <div className="pt-10 pb-6 flex flex-col items-center">
-        <h2 className="text-4xl mb-3">Trending Now</h2>
-        <p className="text-gray-600 text-sm">Find the perfect piece or accessory to finish off your favorite room in the house.</p>
+        <h2 className="text-4xl mb-3">Lançamentos:</h2>
+        <p className="text-gray-600 text-sm">Encontre os seus óculos perfeitos!</p>
       </div>
       <div className="my-8 flex flex-col lg:flex-row justify-between">
         <DisplaySmall

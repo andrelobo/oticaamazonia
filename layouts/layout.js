@@ -19,7 +19,9 @@ export default function Layout({ children, categories }) {
             <div className="mb-4 sm:mr-16 max-w-48 sm:max-w-none">
               <Link href="/">
                 <a aria-label="Home">
-                  <img src="/logo.png" alt="logo" width="90" height="28" />
+                  <img src="/logo.png" alt="logo" width="100" height="58" />
+                  <h1>Ótica Amazônia</h1>
+                  <h2> A melhor amiga do seus olhos!</h2>
                 </a>
               </Link>
             </div>
@@ -75,8 +77,9 @@ export default function Layout({ children, categories }) {
         flex w-fw px-12 py-8
         desktop:px-0
         border-solid
-        border-t border-gray-300">
+        border-t border-green-300">
           <span className="block text-gray-700 text-xs">Copyright © 2021 JAMstack Ecommerce. All rights reserved.</span>
+          <span className="block text-gray-700 text-xs">Copyright © 2023 André Lobo . All rights reserved.</span>
           <div className="
             sm:justify-end sm:m-0
             flex flex-1 mt-4
