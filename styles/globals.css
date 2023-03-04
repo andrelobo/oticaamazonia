@@ -22,9 +22,15 @@
 
 @layer base {
   p, h1, h2, h3, h4, h5 {
-    color: #245237;
+    color: #00a859;
     font-family: Eina;
   }
+}
+.nav{
+  background-color:#00a859;
+}
+.flex justify-center{
+  background-color: #00a859;
 }
 
 .Toastify__progress-bar--default {
